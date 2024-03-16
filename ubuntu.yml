@@ -4,6 +4,27 @@
   become: true
   vars:
     packages:
+      - aptitude
+      - apt-transport-https
+      - awscli
+      - ca-certificates
+      - curl
+      - fail2ban
       - git
+      - gnupg-agent
+      - make
+      - npm
+      - python3
+      - python3-pip
+      - python3-venv
+      - software-properties-common
+      - stow
+      - unrar
+      - unzip
+      - vim
+      - wget
+      - youtube-dl
+      - zip
+      - zsh
   roles:
     - apt
